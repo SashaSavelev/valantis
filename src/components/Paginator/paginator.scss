@@ -1,0 +1,12 @@
+@import '/src/styles.scss';
+
+.paginator {
+   padding-bottom: 10px;   
+  }
+
+
+.Mui-selected {
+   background-color: rgba($themeColor, 0.6) !important;
+   color: rgb(249, 249, 249) !important;
+}
+

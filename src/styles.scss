@@ -1,0 +1,58 @@
+$themeColor : #461616;
+
+:root {
+  --custom-color: #{$themeColor}; 
+}
+
+
+
+body {
+    margin: 0;
+    padding: 0;   
+  }
+  
+  .app-container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+  }
+  
+  .content-container {
+    flex-grow: 1;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    margin-top:  80px;
+    padding: 10px 0 0px; 
+  }
+  
+ .boldText {
+  font-weight: bold;
+  color: rgb(0, 0, 0);
+  
+ }
+
+.centered-title {
+    text-align: center;
+    font-size: 2em; 
+    
+    margin-top: 50vh;
+    transform: translateY(-50%);
+  }
+
+  .noFoundDiv {
+    font-size: 15px;
+    color: $themeColor; // Красный цвет
+    text-align: center;
+    margin-top: 20px; // Настройте отступ сверху в зависимости от ваших предпочтений
+    animation: fadeIn 1s ease-in-out; // Анимация появления
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  } 
