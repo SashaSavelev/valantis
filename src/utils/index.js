@@ -15,7 +15,7 @@ export function getCurrentDateAsString() {
   const todayString = getCurrentDateAsString();
 
  export const token = md5(`${password}${todayString}`);
-export const url = 'http://api.valantis.store:40000/';
+export const url = 'https://api.valantis.store:41000/';
 
 export function filterUniqueIds(originalArray) {
   const uniqueIdMap = {};
